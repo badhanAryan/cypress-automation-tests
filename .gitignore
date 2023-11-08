@@ -3,4 +3,4 @@ node_modules/
 coverage/
 cypress/videos/
 cypress/screenshots/
-test_coverage_report.xlsx
+e2e_test_coverage_report.xlsx
