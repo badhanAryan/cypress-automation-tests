@@ -100,13 +100,3 @@ describe('Wallee webshop', () => {
   });
 });
 
-
-    // // Click the selectize input to trigger the dropdown to open
-    // cy.iframe().find('.selectize-control .selectize-input').click();
-
-    // // Wait for the dropdown to become visible
-    // cy.iframe().find('.selectize-dropdown').should('be.visible');
-
-    // // Click the option now that it is visible
-    // cy.iframe().find('.selectize-dropdown-content .option').contains('Male').click();
-    // cy.iframe().find('.combined-input-container').type('05301995')
