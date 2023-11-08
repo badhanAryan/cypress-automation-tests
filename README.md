@@ -44,3 +44,13 @@ To run these tests, you will need to have Cypress installed and configured on yo
 
 * install **ccypress-wait-until** packages
 * install **cypress-iframe** with npm
+
+## Run the Docker Container
+
+* To run Cypress tests in a Docker container use the following command:
+**docker run --rm -v $PWD:/e2e -w /e2e cypress-test-suite**
+
+## Run the shell script
+
+* To run the shell script, use the following command:
+**./run_cypress_tests.sh**
