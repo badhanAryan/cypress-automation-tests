@@ -25,6 +25,5 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 import 'cypress-wait-until';
-import '@cypress/code-coverage/support';
 import 'cypress-iframe';
 
