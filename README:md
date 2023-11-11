@@ -1,10 +1,8 @@
 # End-to-End Automation Tests with Cypress
 
-This repository contains a suite of end-to-end (e2e) automated test scripts for the web application developed by Buying Labs. The tests are written using Cypress, a robust testing framework that allows for easy writing, running, and debugging of integration tests.
+This repository contains a suite of end-to-end (e2e) automated test scripts for the walle webshop. The tests are written using Cypress, a robust testing framework that allows for easy writing, running, and debugging of e2e automation tests.
 
 ## Test Scripts
-
-The test scripts are designed to cover critical functionalities of the web application, ensuring a high-quality user experience:
 
 - `cart_checkout.cy.js`: This script tests the complete flow of adding items to the shopping cart, creating new account while checkout and proceeding through the checkout process. It's crucial to ensure that users can purchase items without any disruptions, which directly impacts the business's revenue and customer satisfaction.
 
@@ -14,7 +12,7 @@ The test scripts are designed to cover critical functionalities of the web appli
 
 ## Getting Started
 
-To run these tests, you will need to have Cypress installed and configured on your machine. Below are the steps to set up Cypress.
+To run these tests, it will require to have thee Cypress installed and configured. Below are the steps to set up Cypress.
 
 ## Installation of Cypress
 

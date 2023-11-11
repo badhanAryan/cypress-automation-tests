@@ -63,7 +63,7 @@ describe('Wallee webshop', () => {
     // Using click() instead of check() due to 'display: none' CSS property
     // This is a workaround for a known issue where the input is hidden and controlled via custom JavaScript
     // cy.get('label.woocommerce-form__label').eq(1).should('be.visible').click();
-    cy.get('li.payment_method_wallee_3').should('be.visible').click();
+    cy.get('.wc_payment_method').find('input[value="wallee_3"]').click();
     cy.get('label.woocommerce-form__label').eq(2).should('be.visible').click();
     cy.get('button#place_order').should('be.visible').click()
 
@@ -79,7 +79,7 @@ describe('Wallee webshop', () => {
     fillBillingDetails();
     // Place the order without creating an account
     cy.get('button#place_order').click();
-    cy.get('li.payment_method_wallee_3').should('be.visible').click();
+    cy.get('.wc_payment_method').find('input[value="wallee_3"]').click();
     cy.get('label.woocommerce-form__label').eq(2).should('be.visible').click();
     cy.get('button#place_order').should('be.visible').click();
     cy.get('#paymentFrameWrapper').should('be.visible')
